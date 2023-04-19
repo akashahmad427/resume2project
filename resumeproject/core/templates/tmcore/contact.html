@@ -1,0 +1,32 @@
+
+{% extends 'tmcore/base.html' %}
+{% load static %}
+{% block content %}
+<style>
+  .icons{
+    color: green;
+    font-size: xx-large;
+  }
+</style>
+<div class="container mt-4 mx-1 mb-5">
+<div class="col-sm-10 mt-3 ">
+    <h3 class="text-warning mb-5 border-bottom">Contact Me</h3>
+    <h4>Do you have any questions.Please do not hesitate to contact .I will come back to you with in a matter of hours to help you.</h4>
+        <div class="row text-black">
+          <div class="col-sm-6 text-center">
+            <i class="fa fa-envelope icons" aria-hidden="true"></i><br>
+            <a href="mailto:nameakash647@gmail.com"><h2>E mail</h2></a>
+          </div>
+          <div class="col-sm-6 text-center">
+            <i class="fa-brands fa-github icons"></i><br>
+            <a href="https://github.com/akashahmad427"><h2>Github Account</h2></a>
+          </div>
+        </div>
+</div>
+<div class="row text-black mt-5 text-center">
+  <div class="col-sm-10 text-center">
+    <i class="fa-brands fa-linkedin icons"></i><br>
+    <a href="https://www.linkedin.com/in/akash-ahmad-0b446a26b/"><h2>Linkedin Account</h2></a>
+  </div>
+</div>
+{% endblock content %}
